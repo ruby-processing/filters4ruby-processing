@@ -5,6 +5,12 @@ A growing collection of pixel shaders ported to Processing to be used with the `
 
 ### To run shader sketches
 ```bash
+# autorun all sketches
+cd filters4ruby-processing
+rake # assume rake and processing and ruby-processing installed
+```
+Run / Watch individual samples as follows
+```bash
 rp5 --nojruby run/watch sketch.rb # Need to use jruby-complete
 ```
 or in `.rp5rc` add following (if pure yaml)
