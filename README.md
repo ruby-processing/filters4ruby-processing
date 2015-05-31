@@ -13,7 +13,7 @@ Run / Watch individual samples as follows
 ```bash
 rp5 --nojruby run/watch sketch.rb # Need to use jruby-complete
 ```
-or in `.rp5rc` add following (if pure yaml)
+to avoid need for `--nojruby` flag in `.rp5rc` add following (if pure yaml)
 ```yaml
 JRUBY: 'false'
 ```
