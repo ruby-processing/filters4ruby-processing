@@ -9,7 +9,7 @@ A growing collection of pixel shaders ported to Processing to be used with the `
 cd filters4ruby-processing
 rake # assume rake and processing and ruby-processing installed
 ```
-Run / Watch individual samples as follows
+Run / Watch individual sketches as follows
 ```bash
 rp5 --nojruby run/watch sketch.rb # Need to use jruby-complete
 ```
