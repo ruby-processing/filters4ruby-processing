@@ -15,4 +15,4 @@ In the provided example the sketch uses a sobel filter algorithm
 
 Alternatives are `KAYYALI_NESW, KAYYALI_SENW, PREWITT, ROBERTSCROSS, SCHARR`
 
-Other tunable option to experiment is `SCHARR`, that defaults to `1.0` for STEP but if `#define SCHARR` sets step at `0.15`
+Another tunable option to experiment with is `SCHARR`, that defaults to `1.0` for STEP but if `#define SCHARR` sets step at `0.15`
