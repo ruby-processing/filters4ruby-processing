@@ -3,8 +3,7 @@ include_package 'processing.video'
 attr_reader :cam, :my_shader
 
 def setup
-  size(640, 480, P2D) 
-  cameras = Capture.list
+  size(640, 480, P2D)
   @my_shader = load_shader('bwfrag.glsl')
   start_capture(width, height)
 end
