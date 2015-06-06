@@ -1,6 +1,6 @@
 ### Experiment with different edge-detection algorithms
 
-By modifying the filter #defines (this can't be done dynamically so just edit the filter), although I have an idea for using a erb template to make ite easier... 
+By modifying the filter #defines (this can't be done dynamically so just edit the filter), although I have an idea for using a erb template to make this easier... 
 
 Modify `edge_detect.glsl` directly to use these alternative defines included in the shader.
 
