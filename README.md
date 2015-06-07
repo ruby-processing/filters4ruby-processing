@@ -3,7 +3,9 @@ filters4ruby-processing
 A port of [Filters4Processing][] to ruby-processing
 A growing collection of pixel shaders ported to Processing to be used with the `filter()` function. Most of these shaders come from the excellent [Shadertoy](https://www.shadertoy.com) by Iñigo Quilez.
 
-### To run shader sketches
+### To run / watch shader sketches 
+NB: since ruby-processing-2.6.11 glsl files are also so "watched", so you can edit the shader running with watch mode,
+and it will automatically reload when you save your changes...
 ```bash
 # autorun all sketches
 cd filters4ruby-processing
