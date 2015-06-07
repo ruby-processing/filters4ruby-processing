@@ -101,7 +101,7 @@ Now go dig for some [shaders](https://www.shadertoy.com/results?query=filter) an
 
 ## Acknowledgments
 Port to processing by Raphaël de Courville.
-Thanks to all the Shadertoy contributors for their hard work. This collection wouldn't exist without them. Thanks to Andres Colubri for his work on the Processing Shader API.
+Thanks to all the Shadertoy contributors for their hard work. This collection wouldn't exist without them. Thanks to Andr&eacute;s Colubri for his work on the Processing Shader API.
 
 ## License
 All shaders from Shadertoy belong to there respective authors. Unless otherwise specified in the shader file, they are licensed under Creative Commons ([CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US))
