@@ -107,3 +107,6 @@ Thanks to all the Shadertoy contributors for their hard work. This collection wo
 All shaders from Shadertoy belong to there respective authors. Unless otherwise specified in the shader file, they are licensed under Creative Commons ([CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US))
 
 [Filters4Processing]:https://github.com/SableRaf/Filters4Processing
+
+## Tools
+[Syntax highlighting for glsl in vim]:https://github.com/beyondmarc/glsl.vim
