@@ -83,17 +83,7 @@ end
 
 ## Notes about porting filters from Shadertoy
 
-Shadertoy and Processing both have their own quirks when it comes to shader programming. We need to make some changes in order to make Shadertoy code work with Processing/ruby-processing.
-
-Replace:
-`void mainImage( out vec4 fragColor, in vec2 fragCoord )` -> `void main( void )`
-
-Replace all:
-* `iChannel0` -> `texture`
-* `fragCoord` -> `gl_FragCoord`
-* `fragColor` -> `gl_FragColor`
-
-There is more to it than this but these tips should cover most basic filters.
+Shadertoy and Processing both have their own quirks when it comes to shader programming. We need to make some changes in order to make Shadertoy code work with Processing/ruby-processing. See [wiki](https://github.com/ruby-processing/filters4ruby-processing/wiki/Translating-shaders-for-processing) which you are welcome to edit if you know better
 
 Now go dig for some [shaders](https://www.shadertoy.com/results?query=filter) and help us extend the library of filters available for Processing/ruby-processing!
 
