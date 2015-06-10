@@ -18,9 +18,16 @@ def draw
   background(0)
   # Draw the image on the scene
   image(my_image, 0, 0)
-  oscillation = map1d(sin(frame_count * 0.005), (-1.0..1.0), (10..30)).floor
-  my_filter.set('division', oscillation.to_f) 
+  oscillation = make_even(map1d(sin(frame_count * 0.01), (-1.0..1.0), (2..128)))
+  offset_x = make_even(width % oscillation * 0.5).to_f
+  offset_y = make_even(height % oscillation * 0.5).to_f
+  my_filter.set('pixelSize', oscillation.to_f)
+  my_filter.set('offset', offset_x, offset_y)
   # Applies the shader to everything that has already been drawn
   return if mouse_pressed?
   filter(my_filter)
+end
+
+def make_even(source)
+  (source / 2.0).floor * 2
 end

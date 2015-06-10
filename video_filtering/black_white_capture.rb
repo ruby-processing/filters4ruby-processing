@@ -14,9 +14,11 @@ def start_capture(w, h)
 end
 
 def draw
-  return unless (cam.available == true)
-  cam.read
   image(cam, 0, 0)
   return if mouse_pressed?
   filter(my_shader)
+end
+
+def captureEvent(c)
+  c.read
 end

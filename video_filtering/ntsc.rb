@@ -3,7 +3,7 @@
 
 # The videoclip is from NASA: http://youtu.be/CBwdZ1yloHA
 
-load_library :video
+load_library :video, :video_event
 include_package 'processing.video'
 
 attr_reader :movie, :my_shader
@@ -20,9 +20,10 @@ end
 
 def draw
   image(movie, 0, 0, width, height)
-  begin  # workaround to avoid reflection nonsense
-    movie.read
-  end if movie.available?
   return if mouse_pressed?
   filter(my_shader)
+end
+
+def movieEvent(m)
+  m.read
 end
