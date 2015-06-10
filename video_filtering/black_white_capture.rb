@@ -1,4 +1,4 @@
-load_library :video
+load_library :video, :video_event
 include_package 'processing.video'
 attr_reader :cam, :my_shader
 
