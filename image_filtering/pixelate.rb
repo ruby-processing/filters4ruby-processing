@@ -29,5 +29,6 @@ def draw
 end
 
 def make_even(source)
-  (source / 2.0).floor * 2
+  return source.floor if source.floor.even?
+  (source / 2).floor * 2
 end
